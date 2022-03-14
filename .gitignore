@@ -1,3 +1,4 @@
 .vscode
+.aws-sam
 node_modules
 dist

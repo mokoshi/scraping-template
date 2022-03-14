@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "scrape-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-uk8pjtk590zl"
+s3_prefix = "scrape-app"
+region = "ap-northeast-1"
+profile = "private"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
