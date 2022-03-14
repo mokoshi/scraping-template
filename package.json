@@ -1,0 +1,28 @@
+{
+  "name": "scraping-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mokoshi/scraping-template.git",
+  "author": "mokoshi <r.koshi.0514@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esbuild-register src/index.ts",
+    "build": "esbuild src/index.ts --outdir=dist"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "esbuild": "^0.14.25",
+    "esbuild-register": "^3.3.2",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.5.1",
+    "puppeteer": "^13.5.1",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^13.5.1"
+  }
+}
